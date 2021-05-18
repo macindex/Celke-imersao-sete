@@ -1,6 +1,5 @@
 const Sequelize = require('sequelize');
 const { ModuleResolutionKind } = require('typescript');
-const sequelize = require('./db');
 
 const db = require('./db');
 
@@ -23,6 +22,7 @@ const Anuncio = db.define('anuncios',  {
 
 // CRIAR TABELA
 
-Anuncio.sync({ force: true });
+// Anuncio.sync({ force: true });
+Anuncio.sync();
 module.exports = Anuncio;
 
