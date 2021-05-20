@@ -15,7 +15,7 @@ app.get('/', function (req, res){
 });
 
 app.get('/visualizar', async (req, res) => {
-    res.send("")
+    res.send("visualizar")
 });
 
 app.post('/cadastrar', async(req, res) => {
