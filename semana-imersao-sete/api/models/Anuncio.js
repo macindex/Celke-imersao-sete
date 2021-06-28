@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const { ModuleResolutionKind } = require('typescript');
+// const { ModuleResolutionKind } = require('typescript');
 
 const db = require('./db');
 
@@ -22,7 +22,8 @@ const Anuncio = db.define('anuncios',  {
 
 // CRIAR TABELA
 
-// Anuncio.sync({ force: true });
+// Anuncio.sync({ force: true }); SERÁ REALIZADO 
+//ESTE COMANDO APENAS UMA VEZ
 Anuncio.sync();
 module.exports = Anuncio;
 

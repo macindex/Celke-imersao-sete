@@ -73,7 +73,7 @@ app.post('/cadastrar', async(req, res) => {
         res.send('Erro: Anúncio não cadastrado com sucesso!');
         return res.status(400).json({
             error: true,
-            message: "Erro: Erro: Anúncio não cadastrado com sucesso!"
+            message: "Err: Erro: Anúncio não cadastrado com sucesso!"
         });
     });
 });
@@ -96,7 +96,7 @@ app.delete('/apagar/:id', async (req, res) => {
 });
 
 app.listen(3000, function(){
-    console.log("Servidor iniciado na porta 3333: http://localhost:3000/");
+    console.log("Servidor iniciado na porta 3000: http://localhost:3000/");
 
 }); 
  

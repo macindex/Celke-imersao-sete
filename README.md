@@ -2,7 +2,7 @@ SEQUÊNCIA PARA CRIAR O PROJETO
 
 Criar arquivo package.js
 
-### npm init
+### npm or yarn init
 
 Gerencia as requisições, rotas e URLs, entre outras funcionalidades
 
@@ -20,3 +20,6 @@ Dependência para inicialização do servidor sempre que houver alteração de c
 
 ### yarn add nodemon
 
+Sequelize é uma library que facilita o gerenciamento de um DB SQL
+
+### yarn add --save sequelize
